@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ananthakrishnan">
+    <title>Contact Form</title>
+</head>
+<body>
+    <!-- header start -->
+    <header>
+        <div>
+            <h1>Portfolio</h1>
+        </div>
+        
+            <nav>
+                <ul>
+
+                    <li><a href="/index.html">Home</a></li>
+                    <br>
+                    
+                    
+                    <li><a href="#contact">Contact</a></li>
+    
+                </ul>
+    
+
+            </nav>
+        
+    <!-- </header end -->
+
+<!-- contact section start -->
+
+    <h2 id="contact">Contact Form </h2>
+
+    <form action="" method="">
+        <table border="1" cellpadding="20" cellspacing="20">
+            <tr>
+                <th>Full Name</th>
+                <td><input type="text" name="fullname" id="full name" placeholder="please enter your name"  required></td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td><input type="email" name="email" id="email" placeholder="please enter your email" required></td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td><input type="password" name="password" id="password" required></td>
+            </tr>
+            <tr>
+                <th>Contact Number</th>
+                <td><input type="tel" name="contact" pattern="[0-9]{10}" placeholder="1234567890" required></td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td><textarea name="address" id="address" rows="8" cols="20" placeholder="please enter your address" required></textarea></td>
+            </tr>
+            <tr>
+                <th>date</th>
+                <td><input type="date" name="date" id="date"></td>
+            </tr>
+            
+        <tr>
+            <th>Color</th>
+            <td><input type="color" name="color" id="color" ></td>
+        </tr>
+        <tr>
+       
+            <th>Language</th>
+            <td>
+                <select name="language">
+                    <option value="en">English</option>
+                    <option value="hin">Hindi</option>
+                    <option value="tam">Tamil</option>
+                    <option value="kan">Kannada</option>
+                    <option value="mal">Malayalam</option>
+                </select>
+            </td>
+        </tr>
+        
+                
+            
+        
+            <tr>
+                <td>
+                    <button type="submit">Register</button>
+                    &nbsp;&nbsp;
+                    <button type="reset">cancel</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <!-- contact section end -->
+     <br>
+     <br>
+     <!-- footer Section start-->
+    <footer>
+        
+        <p>&copy;@Ananthakrishnan2025 <span>all rights reserved</span></p>
+    </footer>
+    <!-- footer section end -->
+
+</body>
+</html>
